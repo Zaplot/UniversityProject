@@ -84,7 +84,6 @@ class gui extends JFrame {
         setBounds(100, 100, 290, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        setResizable(false);
         setContentPane(panel);
     }
 
